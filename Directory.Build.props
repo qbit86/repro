@@ -3,5 +3,6 @@
     <LangVersion>latest</LangVersion>
     <NeutralLanguage>en-US</NeutralLanguage>
     <RepoRoot>$(MSBuildThisFileDirectory)</RepoRoot>
+    <RootNamespace>Repro</RootNamespace>
   </PropertyGroup>
 </Project>
