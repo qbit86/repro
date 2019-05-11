@@ -4,14 +4,20 @@ namespace Repro
 {
     internal readonly struct Empty : IEquatable<Empty>
     {
-        public bool Equals(Empty other) => true;
+        public bool Equals(Empty other)
+        {
+            return true;
+        }
 
         public override bool Equals(object obj)
         {
             return obj is Empty other && Equals(other);
         }
 
-        public override int GetHashCode() => 1729;
+        public override int GetHashCode()
+        {
+            return 1729;
+        }
 
         public static bool operator ==(Empty left, Empty right) => left.Equals(right);
 
