@@ -18,6 +18,7 @@ namespace Repro
 #pragma warning disable CA1031 // Do not catch general exception types
                 catch (Exception ex)
                 {
+                    // 'exceptions is null' is always 'true'. Remove or refactor the condition(s) to avoid dead code.
                     if (exceptions is null)
                         exceptions = new List<Exception>();
 
