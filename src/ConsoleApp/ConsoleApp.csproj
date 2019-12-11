@@ -1,6 +1,15 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
+  <ItemGroup>
+    <None Update="Template.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Template.txt</LastGenOutput>
+    </None>
+    <None Update="Template.txt">
+      <DependentUpon>Template.tt</DependentUpon>
+    </None>
+  </ItemGroup>
 </Project>
