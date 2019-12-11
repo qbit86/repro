@@ -2,7 +2,7 @@
 <#@ output extension=".txt" #>
 <#
 // Expected: green squiggle on `var`, light bulb “Roslyn Code Fixes” with “Use explicit type” command.
-// Observed: no squiggle.
+// Observed: no squiggle, no yellow light bulb.
 var xs = new[] { "Uno", "Dos", "Tres" };
 for (int i = 0; i != xs.Length; ++i)
     WriteLine(xs[i]);
