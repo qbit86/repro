@@ -6,7 +6,7 @@ namespace Repro
     public readonly partial struct Foo<TComparer>
         where TComparer : IComparer<string>
     {
-        internal TComparer Comparer { get; }
+        private TComparer Comparer { get; }
 
         public Foo(TComparer comparer)
         {
