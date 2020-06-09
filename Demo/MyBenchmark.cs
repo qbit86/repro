@@ -7,9 +7,9 @@ namespace Repro
     public abstract class MyBenchmark
     {
         [Benchmark(Baseline = true)]
-        public int CombineWithDefault() => Program.CombineWithDefault<int, AdditiveInt32Monoid>(2, 3);
+        public decimal CombineWithDefault() => Program.CombineWithDefault<decimal, MultiplicativeDecimalMonoid>(2m, 3m);
 
         [Benchmark]
-        public int CombineWithNew() => Program.CombineWithNew<int, AdditiveInt32Monoid>(2, 3);
+        public decimal CombineWithNew() => Program.CombineWithNew<decimal, MultiplicativeDecimalMonoid>(2m, 3m);
     }
 }
