@@ -9,27 +9,27 @@ namespace Repro
 {
     internal static class Program
     {
-        internal static T Reduce<T, TMonoid>(this IEnumerable<T> items, TMonoid monoid)
+        internal static T Reduce<T, TMonoid>(this T[] items, TMonoid monoid)
             where TMonoid : IMonoid<T>
         {
             if (items is null)
                 throw new ArgumentNullException(nameof(items));
 
             T result = monoid.Identity;
-            foreach (T item in items)
-                result = monoid.Combine(result, item);
+            for (int i = 0; i != items.Length; ++i)
+                result = monoid.Combine(result, items[i]);
 
             return result;
         }
 
-        internal static int ReduceInt32(this IEnumerable<int> items)
+        internal static int ReduceInt32(this int[] items)
         {
             if (items is null)
                 throw new ArgumentNullException(nameof(items));
 
             int result = 0;
-            foreach (int item in items)
-                result += item;
+            for (int i = 0; i != items.Length; ++i)
+                result += items[i];
 
             return result;
         }
