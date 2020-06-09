@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using BenchmarkDotNet.Attributes;
 
 namespace Repro
@@ -6,8 +7,24 @@ namespace Repro
     [DisassemblyDiagnoser(1, true, true, true, true, true)]
     public abstract class MyBenchmark
     {
-        private static readonly int[] s_integers = { 2, 3, 5, 8, 13, 21, 34, 55, 89 };
-        private static readonly decimal[] s_decimals = { 2m, 3m, 5m, 8m, 13m, 21m, 34m, 55m, 89m };
+        private static int[] s_integers;
+        private static decimal[] s_decimals;
+
+        [GlobalSetup]
+        public void GlobalSetup()
+        {
+            const int count = 10000;
+            const int maxValue = 100;
+            var prng = new Random(1729);
+            s_integers = new int[count];
+            s_decimals = new decimal[count];
+            for (int i = 0; i < count; ++i)
+            {
+                int item = prng.Next(maxValue);
+                s_integers[i] = item;
+                s_decimals[i] = decimal.Divide(item + 1, maxValue);
+            }
+        }
 
         [Benchmark(Baseline = true)]
         public int ReduceIntegersBaseline() => s_integers.ReduceInt32();
