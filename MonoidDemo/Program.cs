@@ -22,6 +22,18 @@ namespace Repro
             return result;
         }
 
+        internal static int ReduceInt32(this IEnumerable<int> items)
+        {
+            if (items is null)
+                throw new ArgumentNullException(nameof(items));
+
+            int result = 0;
+            foreach (int item in items)
+                result += item;
+
+            return result;
+        }
+
         private static void Main()
         {
             Job job = new Job(Job.Default).ApplyAndFreeze(RunMode.Short);

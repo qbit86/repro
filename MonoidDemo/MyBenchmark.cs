@@ -9,6 +9,9 @@ namespace Repro
         private static readonly decimal[] s_decimals = { 2m, 3m, 5m, 8m, 13m, 21m, 34m, 55m, 89m };
 
         [Benchmark(Baseline = true)]
+        public int ReduceIntegersBaseline() => s_integers.ReduceInt32();
+
+        [Benchmark]
         public int ReduceIntegers() => s_integers.Reduce(default(AdditiveInt32Monoid));
 
         [Benchmark]
