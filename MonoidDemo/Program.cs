@@ -15,8 +15,8 @@ namespace Repro
                 throw new ArgumentNullException(nameof(items));
 
             T result = monoid.Identity;
-            for (int i = 0; i != items.Length; ++i)
-                result = monoid.Combine(result, items[i]);
+            foreach (T item in items)
+                result = monoid.Combine(result, item);
 
             return result;
         }
@@ -27,8 +27,8 @@ namespace Repro
                 throw new ArgumentNullException(nameof(items));
 
             int result = 0;
-            for (int i = 0; i != items.Length; ++i)
-                result += items[i];
+            foreach (int item in items)
+                result += item;
 
             return result;
         }
