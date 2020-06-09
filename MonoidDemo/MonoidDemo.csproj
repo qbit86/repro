@@ -1,7 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
     <LangVersion>8.0</LangVersion>
     <OutputType>Exe</OutputType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>

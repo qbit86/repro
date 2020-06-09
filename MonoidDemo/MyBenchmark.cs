@@ -3,7 +3,7 @@ using BenchmarkDotNet.Attributes;
 
 namespace Repro
 {
-    [DisassemblyDiagnoser(1, true, true, true, false, true)]
+    [DisassemblyDiagnoser(1, true, true, true, true, true)]
     public abstract class MyBenchmark
     {
         private static readonly int[] s_integers = { 2, 3, 5, 8, 13, 21, 34, 55, 89 };
