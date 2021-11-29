@@ -1,6 +1,18 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Repro/@EntryIndexedValue">True</s:Boolean>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/GeneratedFilesAndFolders/=0079E91A_002D4FE4_002D4091_002D9E79_002D3D815D9BE036_002Fd_003Awwwroot_002Fd_003Alib/@EntryIndexedValue">0079E91A-4FE4-4091-9E79-3D815D9BE036/d:wwwroot/d:lib</s:String>
+	<s:String x:Key="/Default/CodeInspection/GeneratedCode/GeneratedFileMasks/=_002A_002Ecss_002Emap/@EntryIndexedValue">*.css.map</s:String>
+	<s:String x:Key="/Default/CodeInspection/GeneratedCode/GeneratedFileMasks/=_002A_002Ejs_002Emap/@EntryIndexedValue">*.js.map</s:String>
+	<s:String x:Key="/Default/CodeInspection/GeneratedCode/GeneratedFileMasks/=src_002FRazorApp_002Fwwwroot_002Flib_002Fbootstrap_002Fdist_002Fcss_002F_002A/@EntryIndexedValue">src/RazorApp/wwwroot/lib/bootstrap/dist/css/*</s:String>
+	<s:String x:Key="/Default/CodeInspection/GeneratedCode/GeneratedFileMasks/=src_002FRazorApp_002Fwwwroot_002Flib_002Fbootstrap_002Fdist_002Fjs_002F_002A/@EntryIndexedValue">src/RazorApp/wwwroot/lib/bootstrap/dist/js/*</s:String>
+	<s:String x:Key="/Default/CodeInspection/GeneratedCode/GeneratedFileMasks/=src_002FRazorApp_002Fwwwroot_002Flib_002Fjquery_002Dvalidation_002Dunobtrusive_002F_002A/@EntryIndexedValue">src/RazorApp/wwwroot/lib/jquery-validation-unobtrusive/*</s:String>
+	<s:String x:Key="/Default/CodeInspection/GeneratedCode/GeneratedFileMasks/=src_002FRazorApp_002Fwwwroot_002Flib_002Fjquery_002Dvalidation_002Fdist_002F_002A/@EntryIndexedValue">src/RazorApp/wwwroot/lib/jquery-validation/dist/*</s:String>
+	<s:String x:Key="/Default/CodeInspection/GeneratedCode/GeneratedFileMasks/=src_002FRazorApp_002Fwwwroot_002Flib_002Fjquery_002Fdist_002F_002A/@EntryIndexedValue">src/RazorApp/wwwroot/lib/jquery/dist/*</s:String>
+	<s:String x:Key="/Default/CodeInspection/GeneratedCode/GeneratedFileMasks/=wwwroot_002Flib_002Fbootstrap_002Fdist_002Fcss_002F_002A/@EntryIndexedValue">wwwroot/lib/bootstrap/dist/css/*</s:String>
+	<s:String x:Key="/Default/CodeInspection/GeneratedCode/GeneratedFileMasks/=wwwroot_002Flib_002Fbootstrap_002Fdist_002Fjs_002F_002A/@EntryIndexedValue">wwwroot/lib/bootstrap/dist/js/*</s:String>
+	<s:String x:Key="/Default/CodeInspection/GeneratedCode/GeneratedFileMasks/=wwwroot_002Flib_002Fjquery_002Dvalidation_002Dunobtrusive_002F_002A/@EntryIndexedValue">wwwroot/lib/jquery-validation-unobtrusive/*</s:String>
+	<s:String x:Key="/Default/CodeInspection/GeneratedCode/GeneratedFileMasks/=wwwroot_002Flib_002Fjquery_002Dvalidation_002Fdist_002F_002A/@EntryIndexedValue">wwwroot/lib/jquery-validation/dist/*</s:String>
+	<s:String x:Key="/Default/CodeInspection/GeneratedCode/GeneratedFileMasks/=wwwroot_002Flib_002Fjquery_002Fdist_002F_002A/@EntryIndexedValue">wwwroot/lib/jquery/dist/*</s:String>
 	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/PredefinedNamingRules/=PrivateStaticFields/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="s_" Suffix="" Style="aaBb" /&gt;</s:String>
 	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/PredefinedNamingRules/=PrivateStaticReadonly/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="s_" Suffix="" Style="aaBb" /&gt;</s:String>
 </wpf:ResourceDictionary>
