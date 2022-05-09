@@ -1,0 +1,7 @@
+css: ['${.}/styles.css']
+from: commonmark_x
+input-file: ${.}/input.md
+metadata: { lang: en-US }
+self-contained: true
+to: html5
+variables: { document-css: false }

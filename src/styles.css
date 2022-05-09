@@ -1,0 +1,11 @@
+html {
+  font-family: Georgia, serif;
+}
+body {
+  max-width: 36em;
+}
+img {
+  background-color: #ffcfcf;
+  height: 1em;
+  width: 1em;
+}
