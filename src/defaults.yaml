@@ -1,0 +1,8 @@
+from: commonmark_x
+input-file: ${.}/input.md
+metadata: { lang: en-US }
+output-file: ${.}/output.pdf
+pdf-engine: pagedjs-cli
+self-contained: true
+to: html5
+variables: { document-css: false }
