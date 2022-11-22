@@ -47,7 +47,7 @@ Cleanup won't add any newlines.
 Cleanup adds a newline to the end of the file with a file-scoped namespace on every run.
 The layout of the block-scoped namespace remains intact.
 
-This issue is a regression: it doesn't reproduce in Rider 2022.2.4, but affects Rider 2022.3.EAP8.
+This issue is a regression: it doesn't reproduce in Rider 2022.2.4, but affects Rider 2022.3 EAP8.
 
 ---
 
