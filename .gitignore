@@ -3,4 +3,7 @@
 *.suo
 *.user
 bin/
+Debug/
 obj/
+out/
+Release/
