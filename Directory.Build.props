@@ -2,13 +2,14 @@
   <PropertyGroup>
     <AnalysisLevel>latest</AnalysisLevel>
     <AnalysisMode>All</AnalysisMode>
+    <ArtifactsPath>$(MSBuildThisFileDirectory).artifacts/</ArtifactsPath>
     <EnableNETAnalyzers>true</EnableNETAnalyzers>
-    <ImplicitUsings>disable</ImplicitUsings>
     <LangVersion>latest</LangVersion>
     <NeutralLanguage>en-US</NeutralLanguage>
     <NoWarn>CA1014</NoWarn>
     <Nullable>enable</Nullable>
     <RepoRoot>$(MSBuildThisFileDirectory)</RepoRoot>
     <RootNamespace>Repro</RootNamespace>
+    <UseArtifactsOutput>true</UseArtifactsOutput>
   </PropertyGroup>
 </Project>
