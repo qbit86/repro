@@ -1,15 +1,10 @@
-# Default ignored files
+/.idea.Repro.iml
+/contentModel.xml
+/dataSources.local.xml
+/dataSources/
+/httpRequests/
+/modules.xml
+/projectSettingsUpdater.xml
+/riderMarkupCache.xml
 /shelf/
 /workspace.xml
-# Rider ignored files
-/modules.xml
-/contentModel.xml
-/projectSettingsUpdater.xml
-/.idea.Repro.iml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
-
-/riderMarkupCache.xml
