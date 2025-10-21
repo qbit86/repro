@@ -8,4 +8,4 @@ insert_final_newline = true
 max_line_length = 120
 trim_trailing_whitespace = true
 
-# For the purpose of demonstration, this file should be committed with no final newline character.
+# No newline at end of file

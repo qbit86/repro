@@ -2,4 +2,4 @@
 
 Repository for reproducing issues.
 
-For the purpose of demonstration, this file should be committed with no final newline character.
+No newline at end of file
