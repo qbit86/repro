@@ -854,6 +854,8 @@ PlayerSettings:
     Android:
     - -nullable:enable
     - -langversion:10
+    Standalone:
+    - -nullable:enable
   platformArchitecture: {}
   scriptingBackend:
     Android: 1
