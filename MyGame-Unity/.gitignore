@@ -1,9 +1,11 @@
 *.csproj
 *.csproj.meta
 *.sln
-*.slnx
+*.sln.meta
+bin.meta
 Library/
 Logs/
+obj.meta
 out/
 RiderScriptEditorPersistedState.asset
 Temp/
