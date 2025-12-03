@@ -5,4 +5,8 @@
     <TargetFramework>net10.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\MyGame-Unity\Assets\MyGame\Scripts\MyGame.UnityAgnostic\MyGame.UnityAgnostic.team-shared.csproj" />
+  </ItemGroup>
+
 </Project>
