@@ -7,6 +7,16 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\MyGame-Unity\Assets\MyGame\Scripts\MyGame.UnityAgnostic\MyGame.UnityAgnostic.team-shared.csproj" />
+    <ProjectReference Include="..\..\..\MyGame-Unity\Assets\MyGame\Scripts\MyGame.UnityAware\MyGame.UnityAware.team-shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
