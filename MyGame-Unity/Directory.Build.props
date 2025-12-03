@@ -6,7 +6,7 @@
     <EnableNETAnalyzers>true</EnableNETAnalyzers>
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
     <ImplicitUsings>disable</ImplicitUsings>
-    <LangVersion>10</LangVersion>
+    <LangVersion>9</LangVersion>
     <NeutralLanguage>en-US</NeutralLanguage>
     <Nullable>enable</Nullable>
     <MyGameSolutionDir>$(MSBuildThisFileDirectory)</MyGameSolutionDir>

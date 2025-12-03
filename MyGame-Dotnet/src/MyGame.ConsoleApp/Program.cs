@@ -1,8 +1,9 @@
 ﻿using System;
 
-namespace MyGame;
-
-internal static class Program
+namespace MyGame
 {
-    private static void Main() => Console.WriteLine("Hello, World!");
+    internal static class Program
+    {
+        private static void Main() => Console.WriteLine("Hello, World!");
+    }
 }

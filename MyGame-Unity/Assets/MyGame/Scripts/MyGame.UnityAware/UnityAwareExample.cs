@@ -1,8 +1,9 @@
 using UnityEngine;
 
-namespace MyGame;
-
-public static class UnityAwareExample
+namespace MyGame
 {
-    public static Vector3 CrossProduct(Vector3 a, Vector3 b) => Vector3.Cross(a, b);
+    public static class UnityAwareExample
+    {
+        public static Vector3 CrossProduct(Vector3 a, Vector3 b) => Vector3.Cross(a, b);
+    }
 }

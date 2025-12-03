@@ -1,4 +1,5 @@
 *.csproj
+*.csproj.meta
 *.sln
 *.slnx
 Library/
