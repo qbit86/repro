@@ -1,0 +1,17 @@
+<Project>
+  <PropertyGroup>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <AnalysisMode>All</AnalysisMode>
+    <ArtifactsPath>$(MSBuildThisFileDirectory).artifacts/</ArtifactsPath>
+    <Deterministic>true</Deterministic>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <LangVersion>10</LangVersion>
+    <MyGameSolutionDir>$(MSBuildThisFileDirectory)</MyGameSolutionDir>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <Nullable>enable</Nullable>
+    <RootNamespace>MyGame</RootNamespace>
+    <UseArtifactsOutput>true</UseArtifactsOutput>
+  </PropertyGroup>
+</Project>
