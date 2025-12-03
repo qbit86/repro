@@ -1,0 +1,16 @@
+<Project>
+  <PropertyGroup>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <AnalysisMode>AllEnabledByDefault</AnalysisMode>
+    <Deterministic>true</Deterministic>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <LangVersion>10</LangVersion>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <Nullable>enable</Nullable>
+    <MyGameSolutionDir>$(MSBuildThisFileDirectory)</MyGameSolutionDir>
+    <RootNamespace>MyGame</RootNamespace>
+    <WarningsAsErrors>$(WarningsAsErrors);CS0105;CS0665;CS1717</WarningsAsErrors>
+  </PropertyGroup>
+</Project>

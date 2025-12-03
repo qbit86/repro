@@ -1,0 +1,9 @@
+*.csproj
+*.sln
+*.slnx
+Library/
+Logs/
+out/
+RiderScriptEditorPersistedState.asset
+Temp/
+UserSettings/
