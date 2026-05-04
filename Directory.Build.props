@@ -7,7 +7,7 @@
     <EnableNETAnalyzers>true</EnableNETAnalyzers>
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
     <ImplicitUsings>disable</ImplicitUsings>
-    <LangVersion>13</LangVersion>
+    <LangVersion>14</LangVersion>
     <NeutralLanguage>en-US</NeutralLanguage>
     <NoWarn>$(NoWarn);CA1014</NoWarn>
     <Nullable>enable</Nullable>
